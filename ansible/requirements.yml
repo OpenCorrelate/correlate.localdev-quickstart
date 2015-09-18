@@ -1,6 +1,6 @@
 ---
-- name: geerlingguy.homebrew
-  src: geerlingguy.homebrew
+- name: correlate.homebrew
+  src: correlate.homebrew
 
 - name: edunham.xcode
   src: edunham.xcode
