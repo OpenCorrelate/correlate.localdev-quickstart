@@ -1,0 +1,13 @@
+# Copy this sample to $HOME/.ansible/hosts and modify as you see fit
+# For more information on Ansible host inventories, see 
+# http://docs.ansible.com/ansible/intro_inventory.html
+
+[local]
+127.0.0.1
+
+[lan]
+example.local
+
+[remote]
+example.com
+
