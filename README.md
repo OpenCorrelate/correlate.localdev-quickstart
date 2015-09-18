@@ -9,10 +9,7 @@ A quick start template for using [correlate.localdev](https://github.com/OpenCor
 
 We'll be using a Vagrant-Ansible-Virtualbox stack for local development, and Vagrant with Ansible for deployment, permitting a high degree of consistency between environments
 
-* [Virtualbox 5.x](https://www.virtualbox.org/) as the default target, 
-* [Vagrant 1.7.x](https://www.vagrantup.com) as the instance configurator and runner, and 
 * [Ansible 1.6.x](https://github.com/ansible/ansible) as the system provisioner. 
-* [Node.js 0.12.7](https://nodejs.org/en/).  Typically, I prefer to use [NVM](https://github.com/creationix/nvm) on \*nix or [Nodist](https://github.com/marcelklehr/nodist) on Windows.
 
 ### OS X
 
