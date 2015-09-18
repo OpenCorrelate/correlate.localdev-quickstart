@@ -1,0 +1,7 @@
+- hosts: all
+  vars_files:
+    - "vars/localdev/common.yml"
+    - [ "vars/localdev/{{ ansible_os_family }}.yml", "vars/os_defaults.yml" ]
+
+  roles:
+    - { role: correlate.localdev, tags: [localdev]}

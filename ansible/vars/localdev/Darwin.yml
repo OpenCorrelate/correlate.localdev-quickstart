@@ -1,0 +1,19 @@
+---
+homebrew_installed_packages:
+  - ssh-copy-id
+  # - gcc
+  # - ansible
+  - zsh
+  - keychain
+
+homebrew_upgrade_all_packages: no
+
+homebrew_taps:
+  - caskroom/cask
+
+homebrew_cask_apps:
+  - virtualbox
+  - virtualbox-extension-pack
+  - vagrant
+
+homebrew_cask_appdir: /Applications
