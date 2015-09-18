@@ -31,13 +31,6 @@ $ sudo zypper addrepo http://download.opensuse.org/repositories/systemsmanagemen
 $ sudo zypper install ansible
 ```
 
-## Checkout the project
-
-```
-$ git clone https://github.com/OpenCorrelate/correlate.localdev
-```
-
-
 ### Debian/Ubuntu
 
 ```
@@ -45,6 +38,17 @@ $ sudo apt-add-repository ppa:ansible/ansible
 $ sudo apt-get update
 $ sudo apt-get install -y ansible
 ```
+
+
+# Quickstart installation
+
+```
+$ git clone https://github.com/revprez/correlate.localdev-quickstart.git
+$ pushd correlate.localdev-quickstart
+$ git submodule update --init
+$ git submodule update --remote
+```
+
 
 
 # Configuration
