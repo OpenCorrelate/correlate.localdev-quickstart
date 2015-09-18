@@ -50,7 +50,6 @@ $ git submodule update --remote
 ```
 
 
-
 # Configuration
 
 ```
@@ -70,7 +69,7 @@ $ export ANSIBLE_CONFIG=$HOME/.ansible.cfg  # Probably a good idea to save
 
 ```
 
-# Execution
+# Setting up your local control machine
 
 ```
 $ ansible local -m ping 
@@ -81,7 +80,7 @@ $ ansible local -m ping
 
 $ ansible-playbook \
     -v --ask-sudo-pass
-    --limit="<target machine or target group>"
+    --limit="local"
     localdev.yml
 
 ...
