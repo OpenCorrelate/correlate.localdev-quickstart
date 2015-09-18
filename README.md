@@ -27,8 +27,8 @@ Coming soon.
 ### OpenSUSE
 
 ```
-$ sudo zypper install python
-$ sudo pip install ansible
+$ sudo zypper addrepo http://download.opensuse.org/repositories/systemsmanagement/openSUSE_13.2/systemsmanagement.repo
+$ sudo zypper install ansible
 ```
 
 ## Checkout the project
