@@ -42,7 +42,7 @@ $ sudo apt-get install -y ansible
 # Quickstart installation
 
 ```
-$ git clone --recursive https://github.com/revprez/correlate.localdev-quickstart.git
+$ git clone --recursive https://github.com/OpenCorrelate/correlate.localdev-quickstart
 $ pushd correlate.localdev-quickstart
 ```
 
