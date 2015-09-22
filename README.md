@@ -13,11 +13,10 @@ We'll be using a Vagrant-Ansible-Virtualbox stack for local development, and Vag
 
 ### OS X
 
-If you haven't, install [Homebrew](http://brew.sh/) and [Cask](http://caskroom.io/).   
+If you haven't, install [Homebrew](http://brew.sh/) and [Cask](http://caskroom.io/) and [Ansible](http://www.ansible.com/).   
 
 ```
-$ brew install brew-cask python
-$ pip install ansible
+$ brew install brew-cask python ansible
 ```
 
 ### RHEL/Fedora/CentOS
@@ -79,8 +78,8 @@ $ ansible local -m ping
 }
 
 $ ansible-playbook \
-    -v --ask-sudo-pass
-    --limit="local"
+    -v --ask-sudo-pass \
+    --limit="local" \
     localdev.yml
 
 ...
