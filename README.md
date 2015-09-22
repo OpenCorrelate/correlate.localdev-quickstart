@@ -42,10 +42,8 @@ $ sudo apt-get install -y ansible
 # Quickstart installation
 
 ```
-$ git clone https://github.com/revprez/correlate.localdev-quickstart.git
+$ git clone --recursive https://github.com/revprez/correlate.localdev-quickstart.git
 $ pushd correlate.localdev-quickstart
-$ git submodule update --init
-$ git submodule update --remote
 ```
 
 
