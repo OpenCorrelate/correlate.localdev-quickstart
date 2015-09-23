@@ -2,5 +2,5 @@
 - name: correlate.homebrew
   src: correlate.homebrew
 
-- name: edunham.xcode
-  src: edunham.xcode
+- name: correlate.localdev
+  src: correlate.localdev
