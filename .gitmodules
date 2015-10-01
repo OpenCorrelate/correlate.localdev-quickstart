@@ -1,6 +1,6 @@
 [submodule "ansible/roles/correlate.localdev"]
 	path = ansible/roles/correlate.localdev
-	url = git@github.com:OpenCorrelate/correlate.localdev.git
+	url = https://github.com/OpenCorrelate/correlate.localdev.git
 [submodule "ansible/roles/correlate.homebrew"]
 	path = ansible/roles/correlate.homebrew
-	url = git@github.com:OpenCorrelate/correlate.homebrew.git
+	url = https://github.com/OpenCorrelate/correlate.homebrew.git
